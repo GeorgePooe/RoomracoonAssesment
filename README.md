@@ -4,7 +4,7 @@ The LaunchBrowser class:
 
 It contains a method called launchPage, which takes an input parameter appURL.
 The method gets a WebDriver instance using the WebDriverControl.getDriver() method, which is defined in the WebDriverControl class (explained below).
-However, there is a minor issue in this class. The method launchPage is not annotated with any TestNG annotation, which means it won't be considered as a test method. It should have an appropriate TestNG annotation like @Test.
+However, there is a minor issue in this class.
 The WebDriverControl class:
 
 This class implements the ISuiteListener interface, which means it listens to TestNG suite events.
